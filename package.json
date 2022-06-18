@@ -1,0 +1,21 @@
+{
+  "name": "myfirstapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": " electron-builder --dir ",
+    "dist": " electron-builder --win --x64"
+  },
+  "author": "xyx",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "npx": "^10.2.2"
+  },
+  "devDependencies": {
+    "electron": "^17.1.1",
+    "electron-builder": "^23.0.3"
+  }
+}
